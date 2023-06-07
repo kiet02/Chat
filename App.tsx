@@ -20,7 +20,7 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{headerShown: false}}
-        initialRouteName="Home">
+        initialRouteName="Auto">
         <Stack.Screen name="Dangnhap" component={Dangnhap} />
         <Stack.Screen name="Dangky" component={Dangky} />
         <Stack.Screen name="Home" component={Home} />
